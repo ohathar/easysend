@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xd9823cbde1f97c0f1f253a7b207e19eca2f0f1bea6ba47c746460de50e25ca7c");
+uint256 hashGenesisBlock("0x94d6ccaaa4a7d1abd4f1ef689e65dc88dd649aa532934935ed374ae4473c4f62");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // TacoCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2818,7 +2818,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 0xc1;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0xd9823cbde1f97c0f1f253a7b207e19eca2f0f1bea6ba47c746460de50e25ca7c");
+        hashGenesisBlock = uint256("0x94d6ccaaa4a7d1abd4f1ef689e65dc88dd649aa532934935ed374ae4473c4f62");
     }
 
     //
@@ -2843,12 +2843,12 @@ bool InitBlockIndex() {
 
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
-        // Genesis Block:
-        // CBlock(hash=12a765e31ffd4059bada, PoW=0000050c34a64b415b6b, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=97ddfbbae6, nTime=1317972665, nBits=1e0ffff0, nNonce=2084524493, vtx=1)
-        //   CTransaction(hash=97ddfbbae6, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-        //     CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d0104404e592054696d65732030352f4f63742f32303131205374657665204a6f62732c204170706c65e280997320566973696f6e6172792c2044696573206174203536)
-        //     CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
-        //   vMerkleTree: 97ddfbbae6
+        // Easysend Genesis Block:
+        // CBlock(hash=94d6ccaaa4a7d1abd4f1ef689e65dc88dd649aa532934935ed374ae4473c4f62, input=010000000000000000000000000000000000000000000000000000000000000000$
+        //   CTransaction(hash=3c6c35be9357110e1ee679625a39b5bfce5cba480c95ebd1809d3e8a5dca18d5, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+        //     CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104384d65786963616e20507265736964656e74e28099732054$
+        //     CTxOut(nValue=0.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+        //   vMerkleTree: 3c6c35be9357110e1ee679625a39b5bfce5cba480c95ebd1809d3e8a5dca18d5
 
         // Genesis block
         const char* pszTimestamp = "Mexican President’s Ties to Contractor Raise Questions";
@@ -2865,12 +2865,12 @@ bool InitBlockIndex() {
         block.nVersion = 1;
         block.nTime    = 1438278812;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2084709031;
+        block.nNonce   = 2085751159;
 
         if (fTestNet)
         {
             block.nTime    = 1438278812;
-            block.nNonce   = 2084709031;
+            block.nNonce   = 2085751159;
         }
 
         //// debug print
