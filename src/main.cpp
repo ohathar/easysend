@@ -1073,16 +1073,25 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 500 * COIN;
-
-    nSubsidy >>= (nHeight / 50000);
-
+    int64 nSubsidy = 0 * COIN;
+    if (nHeight == 0)
+    {
+        nSubsidy = 0;
+    }
+    else if (nHeight == 1)
+    {
+        nSubsidy = 10000000 * COIN; // only block 1 pays out
+    }
+    else
+    {
+        nSubsidy = 0;
+    }
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 36000;
-static const int64 nTargetTimespanNEW = 60 * 60; // Above 100k retarget hourly
-static const int64 nTargetSpacing = 60;
+static const int64 nTargetTimespan = 120; // 2 minutes
+static const int64 nTargetTimespanNEW = 120; // still 2 minutes
+static const int64 nTargetSpacing = 30; // 30 second blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2842,25 +2851,25 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Mtgox is down";
+        const char* pszTimestamp = "Mexican President’s Ties to Contractor Raise Questions";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 50 * COIN;
+        txNew.vout[0].nValue = 0 * COIN;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1395843162;
+        block.nTime    = 1438278812;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2084709031;
 
         if (fTestNet)
         {
-            block.nTime    = 1395843162;
+            block.nTime    = 1438278812;
             block.nNonce   = 2084709031;
         }
 
@@ -2870,6 +2879,38 @@ bool InitBlockIndex() {
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
         assert(block.hashMerkleRoot == uint256("0xdf5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618"));
+
+        // If genesis block hash does not match, then generate new genesis hash.
+        if (false && block.GetHash() != hashGenesisBlock)
+        {
+            printf("Searching for genesis block...\n");
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            uint256 thash;
+            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+
+            loop
+            {
+                scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+                if (thash <= hashTarget)
+                    break;
+                if ((block.nNonce & 0xFFF) == 0)
+                {
+                    printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                }
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time\n");
+                    ++block.nTime;
+                }
+            }
+            printf("block.nTime = %u \n", block.nTime);
+            printf("block.nNonce = %u \n", block.nNonce);
+            printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+        }
+
         block.print();
         assert(hash == hashGenesisBlock);
 
