@@ -1031,13 +1031,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Tacocoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Tacocoin
-    // Mac: ~/Library/Application Support/Tacocoin
-    // Unix: ~/.tacocoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Easysend
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Easysend
+    // Mac: ~/Library/Application Support/Easysend
+    // Unix: ~/.easysend
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Tacocoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Easysend";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1049,10 +1049,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Tacocoin";
+    return pathRet / "Easysend";
 #else
     // Unix
-    return pathRet / ".tacocoin";
+    return pathRet / ".easysend";
 #endif
 #endif
 }
@@ -1093,7 +1093,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "tacocoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "easysend.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
