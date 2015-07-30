@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>easysend.icns</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleGetInfoString</key>
+	<string>0.9.0.0, Copyright © 2009-2014 The Bitcoin developers</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>0.9.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleExecutable</key>
+	<string>Easysend-Qt</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.easysend.Easysend-Qt</string>
+        <key>CFBundleURLTypes</key>
+        <array>
+          <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>org.easysend.EasysendPayment</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+              <string>easysend</string>
+            </array>
+          </dict>
+        </array>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
