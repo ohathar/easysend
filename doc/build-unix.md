@@ -1,6 +1,6 @@
 Copyright (c) 2009-2013 Bitcoin Developers
 
-Copyright (c) 2014 Tacocoin Developers
+Copyright (c) 2014 Easysend Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -14,9 +14,9 @@ To Build
 ---------------------
 
 	cd src/
-	make -f makefile.unix		# Headless Tacocoin
+	make -f makefile.unix		# Headless Easysend
 
-See readme-qt.rst for instructions on building Tacocoin-Qt, the graphical user interface.
+See readme-qt.rst for instructions on building Easysend-Qt, the graphical user interface.
 
 Dependencies
 ---------------------
@@ -115,7 +115,7 @@ If you need to build Boost yourself:
 
 Security
 --------
-To help make your tacocoin installation more secure by making certain attacks impossible to
+To help make your easysend installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -133,7 +133,7 @@ exploit even if a vulnerability is found, you can take the following measures:
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
 
-    	scanelf -e ./tacocoin
+    	scanelf -e ./easysend
 
     The output should contain:
      TYPE
@@ -147,7 +147,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    `scanelf -e ./tacocoin`
+    `scanelf -e ./easysend`
 
     the output should contain:
 	STK/REL/PTL

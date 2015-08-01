@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Tacocoin</source>
-        <translation>O TacoCoinu</translation>
+        <source>About Easysend</source>
+        <translation>O Easysendu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Tacocoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;TacoCoin&lt;/b&gt; verze</translation>
+        <source>&lt;b&gt;Easysend&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Easysend&lt;/b&gt; verze</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+0"/>
-        <source>The Tacocoin developers</source>
-        <translation>Vývojáři TacoCoinu</translation>
+        <source>The Easysend developers</source>
+        <translation>Vývojáři Easysendu</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Tacocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tohle jsou tvé TacoCoinové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
+        <source>These are your Easysend addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tohle jsou tvé Easysendové adresy pro příjem plateb. Můžeš dát pokaždé každému plátci novou adresu, abys věděl, kdo ti kdy kolik platil.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Tacocoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem TacoCoinové adresy</translation>
+        <source>Sign a message to prove you own a Easysend address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem Easysendové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Tacocoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou TacoCoinovou adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Easysend address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Easysendovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Tacocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tohle jsou tvé TacoCoinové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
+        <source>These are your Easysend addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tohle jsou tvé Easysendové adresy pro posílání plateb. Před odesláním mincí si vždy zkontroluj částku a cílovou adresu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -249,7 +249,7 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY TacoCoinY&lt;/b&gt;!</translation>
+        <translation>Varování: Pokud si zašifruješ peněženku a ztratíš či zapomeneš heslo, &lt;b&gt;PŘIJDEŠ O VŠECHNY EasysendY&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-56"/>
-        <source>Tacocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tacocoins from being stolen by malware infecting your computer.</source>
-        <translation>TacoCoin se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých TacoCoinů malwarem, kterým se může počítač nakazit.</translation>
+        <source>Easysend will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your EZ from being stolen by malware infecting your computer.</source>
+        <translation>Easysend se teď ukončí, aby dokončil zašifrování. Pamatuj však, že pouhé zašifrování peněženky úplně nezabraňuje krádeži tvých Easysendů malwarem, kterým se může počítač nakazit.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Tacocoin</source>
-        <translation>Zobraz informace o TacoCoinu</translation>
+        <source>Show information about Easysend</source>
+        <translation>Zobraz informace o Easysendu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Tacocoin address</source>
-        <translation>Pošli mince na TacoCoinovou adresu</translation>
+        <source>Send coins to a Easysend address</source>
+        <translation>Pošli mince na Easysendovou adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Tacocoin</source>
-        <translation>Uprav nastavení TacoCoinu</translation>
+        <source>Modify configuration options for Easysend</source>
+        <translation>Uprav nastavení Easysendu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Tacocoin</source>
-        <translation>TacoCoin</translation>
+        <source>Easysend</source>
+        <translation>Easysend</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Tacocoin</source>
-        <translation>O &amp;TacoCoinu</translation>
+        <source>&amp;About Easysend</source>
+        <translation>O &amp;Easysendu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Tacocoin addresses to prove you own them</source>
-        <translation>Podepiš zprávy svými TacoCoinovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
+        <source>Sign messages with your Easysend addresses to prove you own them</source>
+        <translation>Podepiš zprávy svými Easysendovými adresami, čímž prokážeš, že jsi jejich vlastníkem</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Tacocoin addresses</source>
-        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými TacoCoinovými adresami</translation>
+        <source>Verify messages to ensure they were signed with specified Easysend addresses</source>
+        <translation>Ověř zprávy, aby ses ujistil, že byly podepsány danými Easysendovými adresami</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
     </message>
     <message>
         <location line="+47"/>
-        <source>Tacocoin client</source>
-        <translation>TacoCoin klient</translation>
+        <source>Easysend client</source>
+        <translation>Easysend klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Tacocoin network</source>
-        <translation><numerusform>%n aktivní spojení do Tacocoinové sítě</numerusform><numerusform>%n aktivní spojení do TacoCoinové sítě</numerusform><numerusform>%n aktivních spojení do TacoCoinové sítě</numerusform></translation>
+        <source>%n active connection(s) to Easysend network</source>
+        <translation><numerusform>%n aktivní spojení do Easysendové sítě</numerusform><numerusform>%n aktivní spojení do Easysendové sítě</numerusform><numerusform>%n aktivních spojení do Easysendové sítě</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresa: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Tacocoin address or malformed URI parameters.</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná TacoCoinová adresa nebo poškozené parametry URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Easysend address or malformed URI parameters.</source>
+        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Easysendová adresa nebo poškozené parametry URI.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Tacocoin can no longer continue safely and will quit.</source>
-        <translation>Stala se fatální chyba. TacoCoin nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
+        <source>A fatal error occurred. Easysend can no longer continue safely and will quit.</source>
+        <translation>Stala se fatální chyba. Easysend nemůže bezpečně pokračovat v činnosti, a proto skončí.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Tacocoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná TacoCoinová adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Easysend address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Easysendová adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresa: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Tacocoin-Qt</source>
-        <translation>TacoCoin-Qt</translation>
+        <source>Easysend-Qt</source>
+        <translation>Easysend-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Tacocoin after logging in to the system.</source>
-        <translation>Automaticky spustí TacoCoin po přihlášení do systému.</translation>
+        <source>Automatically start Easysend after logging in to the system.</source>
+        <translation>Automaticky spustí Easysend po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Tacocoin on system login</source>
-        <translation>S&amp;pustit TacoCoin po přihlášení do systému</translation>
+        <source>&amp;Start Easysend on system login</source>
+        <translation>S&amp;pustit Easysend po přihlášení do systému</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,7 +844,7 @@ Adresa: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Tacocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Easysend client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automaticky otevře potřebný port na routeru. Tohle funguje jen za předpokladu, že tvůj router podporuje UPnP a že je UPnP povolené.</translation>
     </message>
     <message>
@@ -854,8 +854,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Tacocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připojí se do TacoCoinové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
+        <source>Connect to the Easysend network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připojí se do Easysendové sítě přes SOCKS proxy (např. když se připojuje přes Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Tacocoin.</source>
-        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování TacoCoinu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Easysend.</source>
+        <translation>Tady lze nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartování Easysendu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Tacocoin addresses in the transaction list or not.</source>
-        <translation>Zda ukazovat TacoCoinové adresy ve výpisu transakcí nebo ne.</translation>
+        <source>Whether to show Easysend addresses in the transaction list or not.</source>
+        <translation>Zda ukazovat Easysendové adresy ve výpisu transakcí nebo ne.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresa: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Tacocoin.</source>
-        <translation>Nastavení se projeví až po restartování TacoCoinu.</translation>
+        <source>This setting will take effect after restarting Easysend.</source>
+        <translation>Nastavení se projeví až po restartování Easysendu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresa: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tacocoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s TacoCoinovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Easysend network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace nemusí být aktuální. Tvá peněženka se automaticky sesynchronizuje s Easysendovou sítí, jakmile se s ní spojí. Zatím ale ještě není synchronizace dokončena.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresa: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start tacocoin: click-to-pay handler</source>
-        <translation>Nemůžu spustit TacoCoin: obsluha click-to-pay</translation>
+        <source>Cannot start easysend: click-to-pay handler</source>
+        <translation>Nemůžu spustit Easysend: obsluha click-to-pay</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Tacocoin-Qt help message to get a list with possible Tacocoin command-line options.</source>
-        <translation>Seznam parametrů TacoCoinu pro příkazovou řádku získáš v nápovědě TacoCoinu Qt.</translation>
+        <source>Show the Easysend-Qt help message to get a list with possible Easysend command-line options.</source>
+        <translation>Seznam parametrů Easysendu pro příkazovou řádku získáš v nápovědě Easysendu Qt.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresa: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Tacocoin - Debug window</source>
-        <translation>TacoCoin - ladicí okno</translation>
+        <source>Easysend - Debug window</source>
+        <translation>Easysend - ladicí okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Tacocoin Core</source>
-        <translation>Jádro TacoCoinu</translation>
+        <source>Easysend Core</source>
+        <translation>Jádro Easysendu</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Tacocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři soubor s ladicími záznamy TacoCoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+        <source>Open the Easysend debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy Easysendu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Tacocoin RPC console.</source>
-        <translation>Vítej v TacoCoinové RPC konzoli.</translation>
+        <source>Welcome to the Easysend RPC console.</source>
+        <translation>Vítej v Easysendové RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Tacocoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadej TacoCoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Easysend address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadej Easysendovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Tacocoin address</source>
-        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této TacoCoinové adresy</translation>
+        <source>Sign the message to prove you own this Easysend address</source>
+        <translation>Podepiš zprávu, čímž prokážeš, že jsi vlastníkem této Easysendové adresy</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Tacocoin address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou TacoCoinovou adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Easysend address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Easysendovou adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresa: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Tacocoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadej TacoCoinovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Easysend address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadej Easysendovou adresu (např. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresa: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Tacocoin signature</source>
-        <translation>Vlož TacoCoinový podpis</translation>
+        <source>Enter Easysend signature</source>
+        <translation>Vlož Easysendový podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresa: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Tacocoin developers</source>
-        <translation>Vývojáři TacoCoinu</translation>
+        <source>The Easysend developers</source>
+        <translation>Vývojáři Easysendu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresa: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Tacocoin version</source>
-        <translation>Verze TacoCoinu</translation>
+        <source>Easysend version</source>
+        <translation>Verze Easysendu</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresa: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or tacocoind</source>
-        <translation>Poslat příkaz pro -server nebo TacoCoind</translation>
+        <source>Send command to -server or easysend</source>
+        <translation>Poslat příkaz pro -server nebo Easysend</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresa: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: tacocoin.conf)</source>
-        <translation>Konfigurační soubor (výchozí: TacoCoin.conf)</translation>
+        <source>Specify configuration file (default: easysend.conf)</source>
+        <translation>Konfigurační soubor (výchozí: Easysend.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: tacocoind.pid)</source>
-        <translation>PID soubor (výchozí: TacoCoind.pid)</translation>
+        <source>Specify pid file (default: easysend.pid)</source>
+        <translation>PID soubor (výchozí: Easysend.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2273,7 +2273,7 @@ Adresa: %4
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29965 or testnet: 129965)</source>
-        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 29965 nebo testnet: 129965)</translation>
+        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 29966 nebo testnet: 129966)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2300,24 +2300,24 @@ Adresa: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=tacocoinrpc
+rpcuser=easysendrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Easysend Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=tacocoinrpc
+rpcuser=easysendrpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.
 Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
 Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
-například: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo.com
+například: alertnotify=echo %%s | mail -s &quot;Easysend Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ například: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Tacocoin is probably already running.</source>
-        <translation>Nedaří se mi získat zámek na datový adresář %s. TacoCoin pravděpodobně už jednou běží.</translation>
+        <source>Cannot obtain a lock on data directory %s. Easysend is probably already running.</source>
+        <translation>Nedaří se mi získat zámek na datový adresář %s. Easysend pravděpodobně už jednou běží.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ například: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tacocoin will not work properly.</source>
-        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, TacoCoin nebude fungovat správně.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Easysend will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Easysend nebude fungovat správně.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ například: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Tacocoin Wiki for SSL setup instructions)</source>
-        <translation>Možnosti SSL: (viz instrukce nastavení SSL v TacoCoin Wiki)</translation>
+        <source>SSL options: (see the Easysend Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL v Easysend Wiki)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ například: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Tacocoin</source>
-        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi TacoCoinu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Easysend</source>
+        <translation>Chyba při načítání wallet.dat: peněženka vyžaduje novější verzi Easysendu</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Tacocoin to complete</source>
-        <translation>Soubor s peněženkou potřeboval přepsat: restartuj TacoCoin, aby se operace dokončila</translation>
+        <source>Wallet needed to be rewritten: restart Easysend to complete</source>
+        <translation>Soubor s peněženkou potřeboval přepsat: restartuj Easysend, aby se operace dokončila</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ například: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Tacocoin is probably already running.</source>
-        <translation>Nedaří se mi připojit na %s na tomhle počítači. TacoCoin už pravděpodobně jednou běží.</translation>
+        <source>Unable to bind to %s on this computer. Easysend is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Easysend už pravděpodobně jednou běží.</translation>
     </message>
     <message>
         <location line="+64"/>

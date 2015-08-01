@@ -18,7 +18,7 @@ Sanity checks:
 
 Once you've got the right hardware and software:
 
-    git clone git://github.com/tacocoin/tacocoin.git
+    git clone git://github.com/easysend/easysend.git
     git clone git://github.com/devrandom/gitian-builder.git
     mkdir gitian-builder/inputs
     cd gitian-builder/inputs
@@ -39,32 +39,32 @@ Once you've got the right hardware and software:
     bin/make-base-vm --lxc --arch i386 --suite precise
     bin/make-base-vm --lxc --arch amd64 --suite precise
     cd ..
-    mkdir -p ~/made_tacos/{linux,windows}
+    mkdir -p ~/made_easy/{linux,windows}
 
     # Build Linux release:
-    cd tacocoin
+    cd easysend
     git pull
     cd ../gitian-builder
     git pull
-    ./bin/gbuild --commit tacocoin=HEAD ../tacocoin/contrib/gitian-descriptors/gitian.yml
-    mv build/out/* ~/made_tacos/linux/
+    ./bin/gbuild --commit easysend=HEAD ../easysend/contrib/gitian-descriptors/gitian.yml
+    mv build/out/* ~/made_easy/linux/
 
 Expected SHA256 hashes for bin/32:
 
-    52c87de9db9d8de083fa19668077c8edeb28a2a590e5dc3f553a000ab0c4a151  tacocoind
-    030a89dfc56598bf2807920e1311ee0413c3f6062abc970d13ff44097a835e8f  tacocoin-qt
+    52c87de9db9d8de083fa19668077c8edeb28a2a590e5dc3f553a000ab0c4a151  easysend
+    030a89dfc56598bf2807920e1311ee0413c3f6062abc970d13ff44097a835e8f  easysend-qt
 
 Expected SHA256 hashes for bin/64:
 
-    75e575c9e4b17b98c81ae5430c8a1bbd5e0a4d1d77a55432903cdee2c772534b  tacocoind
-    8900b27ead05c22aa17f8157de827683a9f7b898c421fcd296acee86ee962904  tacocoin-qt
+    75e575c9e4b17b98c81ae5430c8a1bbd5e0a4d1d77a55432903cdee2c772534b  easysend
+    8900b27ead05c22aa17f8157de827683a9f7b898c421fcd296acee86ee962904  easysend-qt
 
     # Build Win32 dependencies: (only needs to be done once, or when dependency versions change)
-    ./bin/gbuild --commit tacocoin=HEAD ../tacocoin/contrib/gitian-descriptors/boost-win32.yml
+    ./bin/gbuild --commit easysend=HEAD ../easysend/contrib/gitian-descriptors/boost-win32.yml
     mv build/out/boost-win32-1.55.0-gitian-r6.zip inputs/
-    ./bin/gbuild --commit tacocoin=HEAD ../tacocoin/contrib/gitian-descriptors/deps-win32.yml
+    ./bin/gbuild --commit easysend=HEAD ../easysend/contrib/gitian-descriptors/deps-win32.yml
     mv build/out/bitcoin-deps-win32-gitian-r9.zip inputs/
-    ./bin/gbuild --commit tacocoin=HEAD ../tacocoin/contrib/gitian-descriptors/qt-win32.yml
+    ./bin/gbuild --commit easysend=HEAD ../easysend/contrib/gitian-descriptors/qt-win32.yml
     mv build/out/qt-win32-4.8.3-gitian-r4.zip inputs/
 
 Expected SHA256 hashes for intermediate inputs:
@@ -74,12 +74,12 @@ Expected SHA256 hashes for intermediate inputs:
     018bdc197e2d043348f4cf0942470965be0792d66143fc4e2a2a7dc8e7599a03  qt-win32-4.8.3-gitian-r4.zip
 
     # Build Win32 release:
-    ./bin/gbuild --commit tacocoin=HEAD ../tacocoin/contrib/gitian-descriptors/gitian-win32.yml
-    mv build/out/tacocoin-qt.exe ~/made_tacos/windows/
+    ./bin/gbuild --commit easysend=HEAD ../easysend/contrib/gitian-descriptors/gitian-win32.yml
+    mv build/out/easysend-qt.exe ~/made_easy/windows/
 
 Expected SHA256 hashes for the windows build:
 
-    1dfa4c973957aa483883da4cebd02164968152090f864e5f2576500ee6f4ad2d  tacocoin-qt.exe
+    1dfa4c973957aa483883da4cebd02164968152090f864e5f2576500ee6f4ad2d  easysend-qt.exe
 
 gitian-builder now also supports building using LXC. See
   https://help.ubuntu.com/12.04/serverguide/lxc.html
@@ -107,5 +107,5 @@ Here's a description of Gavin's setup on OSX 10.6:
 5. Still inside Ubuntu, tell gitian-builder to use LXC, then follow the "Once you've got the right
   hardware and software" instructions above:
   export USE_LXC=1
-  git clone git://github.com/tacocoin/tacocoin.git
+  git clone git://github.com/easysend/easysend.git
   ... etc

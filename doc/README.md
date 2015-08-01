@@ -1,8 +1,8 @@
-Tacocoin 0.9.0
+Easysend 0.9.0
 ====================
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2014- Tacocoin Developers
+Copyright (c) 2014- Easysend Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -12,7 +12,7 @@ cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cry
 
 Intro
 ---------------------
-Tacocoin is a free open source peer-to-peer electronic cash system that is
+Easysend is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -20,17 +20,17 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 ---------------------
-You need the Qt4 run-time libraries to run Tacocoin-Qt. On Debian or Ubuntu:
+You need the Qt4 run-time libraries to run Easysend-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
 
 Unpack the files into a directory and run:
 
-- bin/32/tacocoin-qt (GUI, 32-bit)
-- bin/32/tacocoind (headless, 32-bit)
-- bin/64/tacocoin-qt (GUI, 64-bit)
-- bin/64/tacocoind (headless, 64-bit)
+- bin/32/easysend-qt (GUI, 32-bit)
+- bin/32/easysendd (headless, 32-bit)
+- bin/64/easysend-qt (GUI, 64-bit)
+- bin/64/easysendd (headless, 64-bit)
 
-See the documentation at the [Tacocoin Wiki](http://tacocoin.info)
+See the documentation at the [Easysend Wiki](http://easysend.info)
 for help and more information.
 
 

@@ -52,10 +52,10 @@ bool static TestSplitHost(string test, string host, int port)
 
 BOOST_AUTO_TEST_CASE(netbase_splithost)
 {
-    BOOST_CHECK(TestSplitHost("www.tacocoin.net", "www.tacocoin.net", -1));
-    BOOST_CHECK(TestSplitHost("[www.tacocoin.net]", "www.tacocoin.net", -1));
-    BOOST_CHECK(TestSplitHost("www.tacocoin.net:80", "www.tacocoin.net", 80));
-    BOOST_CHECK(TestSplitHost("[www.tacocoin.net]:80", "www.tacocoin.net", 80));
+    BOOST_CHECK(TestSplitHost("www.easysend.net", "www.easysend.net", -1));
+    BOOST_CHECK(TestSplitHost("[www.easysend.net]", "www.easysend.net", -1));
+    BOOST_CHECK(TestSplitHost("www.easysend.net:80", "www.easysend.net", 80));
+    BOOST_CHECK(TestSplitHost("[www.easysend.net]:80", "www.easysend.net", 80));
     BOOST_CHECK(TestSplitHost("127.0.0.1", "127.0.0.1", -1));
     BOOST_CHECK(TestSplitHost("127.0.0.1:29966", "127.0.0.1", 29966));
     BOOST_CHECK(TestSplitHost("[127.0.0.1]", "127.0.0.1", -1));

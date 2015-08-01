@@ -23,7 +23,7 @@ struct TestingSetup {
         fPrintToDebugger = true; // don't want to write to debug.log file
         noui_connect();
         bitdb.MakeMock();
-        pathTemp = GetTempPath() / strprintf("test_tacocoin_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
+        pathTemp = GetTempPath() / strprintf("test_easysend_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
         boost::filesystem::create_directories(pathTemp);
         mapArgs["-datadir"] = pathTemp.string();
         pblocktree = new CBlockTreeDB(1 << 20, true);

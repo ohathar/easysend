@@ -1,4 +1,4 @@
-Mac OS X tacocoind build instructions
+Mac OS X easysend build instructions
 ====================================
 
 Authors
@@ -13,7 +13,7 @@ License
 -------
 
 Copyright (c) 2009-2012 Bitcoin Developers
-Copyright (c) 2014 Tacocoin Developers
+Copyright (c) 2014 Easysend Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -27,7 +27,7 @@ Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 Notes
 -----
 
-See `doc/readme-qt.rst` for instructions on building Tacocoin-Qt, the
+See `doc/readme-qt.rst` for instructions on building Easysend-Qt, the
 graphical user interface.
 
 Tested on OS X 10.5 through 10.10 on Intel processors only. PPC is not
@@ -71,14 +71,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install openssl miniupnpc autoconf automake db48 boost miniupnpc pkgconfig protobuf-cpp qt4-mac
 
-### Building `tacocoind`
+### Building `easysend`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:tacocoin/tacocoin.git tacocoin
-        cd tacocoin
+        git clone git@github.com:easysend/easysend.git easysend
+        cd easysend
 
-2.  Build tacocoind:
+2.  Build easysend:
 
         cd src
         make -f makefile.osx
@@ -94,12 +94,12 @@ Instructions: HomeBrew
 
         brew install boost miniupnpc openssl berkeley-db4
 
-### Building `tacocoind`
+### Building `easysend`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:tacocoin-project/tacocoin.git tacocoin
-        cd tacocoin
+        git clone git@github.com:easysend-project/easysend.git easysend
+        cd easysend
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -109,7 +109,7 @@ Instructions: HomeBrew
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-3.  Build tacocoind:
+3.  Build easysend:
 
         cd src
         make -f makefile.osx
@@ -121,10 +121,10 @@ Instructions: HomeBrew
 Creating a release build
 ------------------------
 
-A tacocoind binary is not included in the Tacocoin-Qt.app bundle. You can ignore
-this section if you are building `tacocoind` for your own use.
+A easysend binary is not included in the Easysend-Qt.app bundle. You can ignore
+this section if you are building `easysend` for your own use.
 
-If you are building `tacocoind` for others, your build machine should be set up
+If you are building `easysend` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -143,30 +143,30 @@ As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix. Some ports also seem to obey either `build_arch` or
 `macosx_deployment_target`, but not both at the same time. For example, building
-on an OS X 10.6 64-bit machine fails. Official release builds of Tacocoin-Qt are
+on an OS X 10.6 64-bit machine fails. Official release builds of Easysend-Qt are
 compiled on an OS X 10.6 32-bit machine to workaround that problem.
 
-Once dependencies are compiled, creating `Tacocoin-Qt.app` is easy:
+Once dependencies are compiled, creating `Easysend-Qt.app` is easy:
 
     make -f Makefile.osx RELEASE=1
 
 Running
 -------
 
-It's now available at `./tacocoind`, provided that you are still in the `src`
+It's now available at `./easysend`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./tacocoind` to get the filename where it should be put, or just try these
+Run `./easysend` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=tacocoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/tacocoin/tacocoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/tacocoin/tacocoin.conf"
+    echo -e "rpcuser=easysendrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/easysend/easysend.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/easysend/easysend.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./tacocoind --help  # for a list of command-line options.
-    ./tacocoind -daemon # to start the tacocoin daemon.
-    ./tacocoind help    # When the daemon is running, to get a list of RPC commands
+    ./easysend --help  # for a list of command-line options.
+    ./easysend -daemon # to start the easysend daemon.
+    ./easysend help    # When the daemon is running, to get a list of RPC commands

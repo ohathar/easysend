@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Tacocoin</source>
-        <translation>TacoCoinist</translation>
+        <source>About Easysend</source>
+        <translation>Easysendist</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Tacocoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;TacoCoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;Easysend&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Easysendi&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The Tacocoin developers</source>
+        <source>The Easysend developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Tacocoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad TacoCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your Easysend addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad Easysendi aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Tacocoin address</source>
+        <source>Sign a message to prove you own a Easysend address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Tacocoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud TacoCoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified Easysend address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Easysendi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Tacocoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu TacoCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your Easysend addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Easysendi aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -249,7 +249,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA TacoCoinID&lt;/b&gt;!</translation>
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA EasysendID&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>Tacocoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your tacocoins from being stolen by malware infecting your computer.</source>
-        <translation>TacoCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista TacoCoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>Easysend will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your EZ from being stolen by malware infecting your computer.</source>
+        <translation>Easysend sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista Easysendide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Tacocoin</source>
-        <translation>Kuva info TacoCoini kohta</translation>
+        <source>Show information about Easysend</source>
+        <translation>Kuva info Easysendi kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Tacocoin address</source>
-        <translation>Saada münte TacoCoini aadressile</translation>
+        <source>Send coins to a Easysend address</source>
+        <translation>Saada münte Easysendi aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Tacocoin</source>
-        <translation>Muuda TacoCoini seadeid</translation>
+        <source>Modify configuration options for Easysend</source>
+        <translation>Muuda Easysendi seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Tacocoin</source>
-        <translation>TacoCoin</translation>
+        <source>Easysend</source>
+        <translation>Easysend</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Tacocoin</source>
-        <translation>%TacoCoinist</translation>
+        <source>&amp;About Easysend</source>
+        <translation>%Easysendist</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Tacocoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma TacoCoini aadressiga</translation>
+        <source>Sign messages with your Easysend addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Easysendi aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Tacocoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud TacoCoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified Easysend addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Easysendi aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>Tacocoin client</source>
-        <translation>TacoCoini klient</translation>
+        <source>Easysend client</source>
+        <translation>Easysendi klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Tacocoin network</source>
-        <translation><numerusform>%n aktiivne ühendus TacoCoini võrku</numerusform><numerusform>%n aktiivset ühendust TacoCoini võrku</numerusform></translation>
+        <source>%n active connection(s) to Easysend network</source>
+        <translation><numerusform>%n aktiivne ühendus Easysendi võrku</numerusform><numerusform>%n aktiivset ühendust Easysendi võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Tacocoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu TacoCoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Easysend address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Easysendi aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Tacocoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. TacoCoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. Easysend can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. Easysend suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Tacocoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole TacoCoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Easysend address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole Easysendis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Tacocoin-Qt</source>
-        <translation>TacoCoini-Qt</translation>
+        <source>Easysend-Qt</source>
+        <translation>Easysendi-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Tacocoin after logging in to the system.</source>
-        <translation>Käivita TacoCoin süsteemi logimisel.</translation>
+        <source>Automatically start Easysend after logging in to the system.</source>
+        <translation>Käivita Easysend süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Tacocoin on system login</source>
-        <translation>&amp;Start TacoCoin sisselogimisel</translation>
+        <source>&amp;Start Easysend on system login</source>
+        <translation>&amp;Start Easysend sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Tacocoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>TacoCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Easysend client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Easysendi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Tacocoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta TacoCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the Easysend network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta Easysendi võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Tacocoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub TacoCoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Easysend.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Easysendi käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Tacocoin addresses in the transaction list or not.</source>
-        <translation>Kuvada TacoCoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show Easysend addresses in the transaction list or not.</source>
+        <translation>Kuvada Easysendi aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Tacocoin.</source>
-        <translation>Tehtud valik rakendub TacoCoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting Easysend.</source>
+        <translation>Tehtud valik rakendub Easysendi käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Tacocoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Easysend network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start tacocoin: click-to-pay handler</source>
-        <translation>TacoCoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start easysend: click-to-pay handler</source>
+        <translation>Easysend ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Tacocoin-Qt help message to get a list with possible Tacocoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks TacoCoini-Qt abiteksti</translation>
+        <source>Show the Easysend-Qt help message to get a list with possible Easysend command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks Easysendi-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Tacocoin - Debug window</source>
-        <translation>TacoCoin - debugimise aken</translation>
+        <source>Easysend - Debug window</source>
+        <translation>Easysend - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Tacocoin Core</source>
-        <translation>TacoCoini tuumik</translation>
+        <source>Easysend Core</source>
+        <translation>Easysendi tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Tacocoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava TacoCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the Easysend debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Easysendi logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Tacocoin RPC console.</source>
-        <translation>Teretulemast TacoCoini RPC konsooli.</translation>
+        <source>Welcome to the Easysend RPC console.</source>
+        <translation>Teretulemast Easysendi RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Tacocoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta TacoCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Easysend address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta Easysendi aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Tacocoin address</source>
-        <translation>Allkirjasta sõnum TacoCoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Easysend address</source>
+        <translation>Allkirjasta sõnum Easysendi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1548,8 +1548,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Tacocoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud TacoCoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Easysend address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Easysendi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Tacocoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta TacoCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Easysend address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta Easysendi aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Tacocoin signature</source>
-        <translation>Sisesta TacoCoini allkiri</translation>
+        <source>Enter Easysend signature</source>
+        <translation>Sisesta Easysendi allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Tacocoin developers</source>
+        <source>The Easysend developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Tacocoin version</source>
-        <translation>TacoCoini versioon</translation>
+        <source>Easysend version</source>
+        <translation>Easysendi versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or tacocoind</source>
-        <translation>Saada käsklus -serverile või TacoCoindile</translation>
+        <source>Send command to -server or easysend</source>
+        <translation>Saada käsklus -serverile või Easysendile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: tacocoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: TacoCoin.conf)</translation>
+        <source>Specify configuration file (default: easysend.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: Easysend.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: tacocoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: TacoCoin.pid)</translation>
+        <source>Specify pid file (default: easysend.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: Easysend.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2272,7 +2272,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+27"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 29965 or testnet: 129965)</source>
-        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 29965 või testnet: 129965)</translation>
+        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 29966 või testnet: 129966)</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2299,24 +2299,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=tacocoinrpc
+rpcuser=easysendrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Tacocoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Easysend Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=tacocoinrpc
+rpcuser=easysendrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;Tacocoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;Easysend Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;Tacocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Tacocoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on TacoCoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. Easysend is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on Easysend juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;Tacocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Tacocoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis TacoCoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Easysend will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Easysend ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;Tacocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Tacocoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata TacoCoini Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the Easysend Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata Easysendi Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;Tacocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Tacocoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab TacoCoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Easysend</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab Easysendi uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Tacocoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita TacoCoin</translation>
+        <source>Wallet needed to be rewritten: restart Easysend to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita Easysend</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;Tacocoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Tacocoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. TacoCoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. Easysend is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. Easysend juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>
