@@ -12,7 +12,9 @@ coins to merge mine!
 
 Block times: 30 sec
 
-Diff Retarg: 120 sec //still playing with this
+Diff Retarg: 600 sec //still playing with this
+
+RPC:29965 // P2P:29966
 
 #Why Easysend?  
 
